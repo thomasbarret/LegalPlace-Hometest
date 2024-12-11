@@ -213,7 +213,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -3,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -240,7 +240,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -4,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -267,7 +267,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -5,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -294,7 +294,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -6,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -321,7 +321,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -7,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -348,7 +348,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -8,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -375,7 +375,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -9,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -402,7 +402,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -10,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -429,7 +429,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -11,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -456,7 +456,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -12,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -483,7 +483,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -13,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -510,7 +510,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -14,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -537,7 +537,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -15,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -564,7 +564,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -16,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -591,7 +591,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -17,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -618,7 +618,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -18,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -645,7 +645,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -19,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -672,7 +672,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -20,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -699,7 +699,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -21,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -726,7 +726,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -22,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -738,7 +738,7 @@
       {
         "name": "Herbal Tea",
         "expiresIn": -18,
-        "benefit": 51
+        "benefit": 50
       },
       {
         "name": "Fervex",
@@ -753,7 +753,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -23,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -765,7 +765,7 @@
       {
         "name": "Herbal Tea",
         "expiresIn": -19,
-        "benefit": 51
+        "benefit": 50
       },
       {
         "name": "Fervex",
@@ -780,7 +780,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -24,
-        "benefit": -2
+        "benefit": 0
       }
     ],
     [
@@ -792,7 +792,7 @@
       {
         "name": "Herbal Tea",
         "expiresIn": -20,
-        "benefit": 51
+        "benefit": 50
       },
       {
         "name": "Fervex",
@@ -807,7 +807,7 @@
       {
         "name": "Dafalgan",
         "expiresIn": -25,
-        "benefit": -2
+        "benefit": 0
       }
     ]
   ]
