@@ -8,7 +8,7 @@ export class Drug {
   update() {
     this.expiresIn--;
 
-    if (this.benefit > 0) {
+    if (this.benefit > 0 && this.expiresIn >= 0) {
       this.benefit--;
     }
 
@@ -18,16 +18,56 @@ export class Drug {
   }
 }
 
-class HerbalTea extends Drug {
-    update() {
-        this.expiresIn--;
+export class HerbalTea extends Drug {
+  update() {
+    this.expiresIn--;
 
-        if (this.benefit < 50) {
-        this.benefit++;
-        }
-
-        if (this.expiresIn < 0 && this.benefit < 50) {
-        this.benefit++;
-        }
+    if (this.benefit < 50 && this.expiresIn >= 0) {
+      this.benefit++;
     }
+
+    if (this.expiresIn < 0 && this.benefit < 50) {
+      this.benefit += 2;
+    }
+  }
+}
+
+export class MagicPill extends Drug {
+  update() {}
+}
+
+export class Fervex extends Drug {
+  update() {
+    this.expiresIn--;
+
+    if (this.benefit < 50) {
+      this.benefit++;
+
+      if (this.expiresIn < 10) {
+        this.benefit++;
+      }
+
+      if (this.expiresIn < 5) {
+        this.benefit++;
+      }
+    }
+
+    if (this.expiresIn < 0) {
+      this.benefit = 0;
+    }
+  }
+}
+
+export class Dafalgan extends Drug {
+  update() {
+    this.expiresIn--;
+
+    if (this.benefit > 0 && this.expiresIn >= 0) {
+      this.benefit -= 2;
+    }
+
+    if (this.expiresIn < 0 && this.benefit > 0) {
+      this.benefit -= 4;
+    }
+  }
 }
