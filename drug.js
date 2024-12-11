@@ -15,6 +15,8 @@ export class Drug {
     if (this.expiresIn < 0 && this.benefit > 0) {
       this.benefit -= 2;
     }
+
+    this.benefit = Math.max(0, this.benefit);
   }
 }
 
@@ -29,6 +31,8 @@ export class HerbalTea extends Drug {
     if (this.expiresIn < 0 && this.benefit < 50) {
       this.benefit += 2;
     }
+
+    this.benefit = Math.min(50, this.benefit);
   }
 }
 
@@ -55,6 +59,8 @@ export class Fervex extends Drug {
     if (this.expiresIn < 0) {
       this.benefit = 0;
     }
+
+    this.benefit = Math.min(50, this.benefit);
   }
 }
 
@@ -69,5 +75,7 @@ export class Dafalgan extends Drug {
     if (this.expiresIn < 0 && this.benefit > 0) {
       this.benefit -= 4;
     }
+
+    this.benefit = Math.max(0, this.benefit);
   }
 }
