@@ -10,8 +10,4 @@ export class Pharmacy {
 
     return this.drugs;
   }
-
-  getDrugs() {
-    return this.drugs;
-  }
 }
